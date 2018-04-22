@@ -1,0 +1,7 @@
+endpoints:
+  prometheus:
+    enabled: true
+
+management.endpoints.web.expose: prometheus,metrics,info,health
+
+management.endpoints.web.exposure.include: prometheus,metrics,info,health
